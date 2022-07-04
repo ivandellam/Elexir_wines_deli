@@ -311,7 +311,12 @@ textarea{
     }
 }
 
-
+.titulo {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
     
 
 
