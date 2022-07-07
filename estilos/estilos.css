@@ -55,7 +55,7 @@
         /* Contenido General */
 
     body{
-        background-image: url(../multimedia/fondo1.jpg);
+        background-image: url(../multimedia/background.jpg);
         width: 100%;
         height: 100%;
     }
@@ -67,9 +67,11 @@
     section{
         color: #ffff;
         text-align: center;
-        
-
     }
+
+   .img_vino {
+    text-align: center;
+   }
 
     section div {
         text-align: center;
@@ -292,7 +294,9 @@ textarea{
 }
    
      
-@keyframes  {
+@keyframes animation{
+    
+ 
     0% {
         opacity: 100%;
     }
@@ -312,15 +316,25 @@ textarea{
 }
 
 .titulo {
-    animation-name: aparecer;
+    animation-name: animation;
     animation-duration: 2s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
-}
+    animation-timing-function: linear;
+    }
     
+.subtitulo {
+        animation-name: animation;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
 
-
-
+.carousel-item {
+    max-width: 40%;
+    max-height: 40%;
+}
 
     
 
