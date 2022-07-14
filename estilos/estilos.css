@@ -194,6 +194,8 @@ textarea{
         color: #ffff;
         max-width: 600px;
     }
+
+    /* GRILLA */
     .container{
         display: flex;
         justify-content: center;
@@ -215,10 +217,6 @@ textarea{
 
         .titulo h1{
             grid-area: titulo;
-        }
-
-        .subtitulo h2{
-            grid-area subtitulo;
         }
 
         .header {
@@ -271,6 +269,8 @@ textarea{
         .footer{
             grid-area: footer;
         }
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 500px){
     /* INDEX MOBILE */
