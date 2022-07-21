@@ -1,0 +1,50 @@
+-- INDEX --
+
+cambie el titulo a "VINOTECA EN MENDOZA"
+
+agregue estos keywords 
+"vinoteca, bodega, elexir, vinos, malbec, petit verdot, cavernet savignone, torrontes,
+chardonnay,maridajes, sabores, enologos, viñedos, uvas"
+
+agegue esta descripcion
+"vinoteca elexir tiene el mejor precio y la mejor calidad en vinos de boutique, 
+disfruta las degustaciones en nuestras instalacioens"
+
+
+-- VINOS --
+
+cambie el titulo a "VINOS DE ELEXIR WINES"
+
+agregue estos keywords
+"vinoteca, bodega, elexir, vinos, malbec, petit verdot, cavernet savignone, torrontes,
+chardonnay, pedro gimenez, cabernet franc, cavernet sauvignone"
+
+agregue esta descripcion
+"en nuestra vinoteca encontraras gran variedad de vinos tanto jovenes como reserva y gran reserva
+    calidad y precio asegurado"
+
+
+-- DELICATTESSEN --
+
+cambie el titulo a "Maridajes en Elexir Wines"
+
+agregue estos keywords
+"vinoteca, bodega, elexir, vinos, malbec, petit verdot, cavernet savignone, torrontes,
+chardonnay,maridajes, sabores, enologos, viñedos, uvas,maridajes, sabores, enologos, viñedos, uvas"
+
+agregue esta descripcion
+"en nuestra vinoteca encontraras un espacio donde realizamos descorches, catas y maridajes
+de nuestras mejores etiquetas"
+
+-- CONTACTO --
+
+cambie el titulo a "CONTACTATE CON NOSOTROS"
+
+agregue estos keywords
+"contacto, catas, descorches, vinoteca, bodega, elexir, vinos, malbec, petit verdot, cavernet savignone, torrontes,
+chardonnay"
+
+agregue esta descripcion 
+"contactate con nosotros para acceder a nuestro club del vino del mes y recibir
+informacion sobre nuestras catas y descorches"
+
