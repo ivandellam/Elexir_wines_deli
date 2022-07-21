@@ -1,5 +1,38 @@
+.promo1 {
+  color: #ee0505; }
+
+.promo2 {
+  color: #af2626; }
+
+.promo3 {
+  color: #ff004c; }
+
+.promo4 {
+  color: #ff5100; }
+
+.punto1, .punto2, .punto3, .punto4 {
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 16px;
+  border: solid 1px black; }
+
+.punto2 {
+  text-decoration-color: gray; }
+
+.punto4 {
+  text-decoration-color: gray; }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
 footer {
   color: #ffff;
-  background: black; }
+  background-color: #ff5100; }
   footer h2 {
     text-align: start; }
+
+body {
+  width: 100%;
+  height: 100%; }
