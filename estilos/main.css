@@ -10,6 +10,9 @@
 .promo4 {
   color: #ff5100; }
 
+.promo5 {
+  color: #f3e306; }
+
 .punto1, .punto2, .punto3, .punto4 {
   text-align: center;
   text-decoration-color: white;
@@ -36,3 +39,165 @@ footer {
 body {
   width: 100%;
   height: 100%; }
+
+@keyframes animation {
+  0% {
+    opacity: 100%; }
+  25% {
+    opacity: 75%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 25%; }
+  100% {
+    opacity: 0%; } }
+
+.titulo {
+  text-align: center;
+  font-size: 37px;
+  margin-left: 20px;
+  color: #ffff;
+  font-family: 'Emilys Candy', cursive;
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 3;
+  animation-delay: linear;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+.espumantesyvinos {
+  margin-left: 10%;
+  margin-top: 10%;
+  border: 3px solid rgba(34, 31, 31, 0.918);
+  max-width: 350px;
+  max-height: 350px; }
+
+.infovinos {
+  margin-top: 100px;
+  margin-right: px; }
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%; }
+  body section {
+    text-align: center; }
+
+.section {
+  color: #ffff;
+  text-align: center; }
+
+section div {
+  text-align: center; }
+
+.parrafoimp {
+  text-align: center;
+  color: #ffff; }
+
+footer {
+  color: #ffff;
+  background-color: black; }
+  footer h2 {
+    text-align: start; }
+
+h4 {
+  text-align: end; }
+  h4 div {
+    text-align: center;
+    color: #ffff;
+    opacity: 0.2;
+    font-size: 29px; }
+
+div li {
+  text-align: start; }
+
+div textarea {
+  max-width: 270px;
+  height: 80px; }
+
+.popacity {
+  opacity: 0.15;
+  color: #ffff;
+  text-align: center;
+  font-size: 22px; }
+
+* {
+  box-sizing: border-box; }
+
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgba(34, 31, 31, 0.918);
+  text-align: center;
+  color: #ffff;
+  max-width: 600px; }
+  form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block; }
+  form input[type="text"] {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block; }
+  form input[type="email"] {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block; }
+  form input[type="submit"] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background-color: #000; }
+    form input[type="submit"]:hover {
+      cursor: pointer; }
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  resize: none;
+  display: block; }
+
+.item1 {
+  position: relative;
+  top: 350px;
+  left: 150px; }
+
+.mapa {
+  max-width: 300px;
+  max-height: 300px; }
+
+@media screen and (max-width: 500px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "titulo" "header" "main" "footer"; } }
+
+.imagen__main {
+  display: none; }
+
+.header a {
+  font-size: 10px;
+  display: flex;
+  justify-content: center; }

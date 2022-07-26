@@ -2,8 +2,8 @@ $promociones: (
     promo1: rgb(238, 5, 5),
     promo2: rgb(175, 38, 38),
     promo3: rgb(255, 0, 76),
-    promo4: rgb(255, 81, 0) 
-    promo5: rgb(243, 227, 6)
+    promo4: rgb(255, 81, 0),
+    promo5: rgb(243, 227, 6),
 );
 
 @each $key, $valor in $promociones {
